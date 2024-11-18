@@ -12,7 +12,7 @@ Client Party is simple go http client library
 With [Go module](https://github.com/golang/go/wiki/Modules) support, simply add the following import
 
 ```
-import "github.com/h4lim/client-party"
+import "github.com/ankghoro/client-party"
 ```
 
 to your code, and then `go [build|run|test]` will automatically fetch the necessary dependencies.
@@ -20,7 +20,7 @@ to your code, and then `go [build|run|test]` will automatically fetch the necess
 Otherwise, run the following Go command to install the `qr` package:
 
 ```sh
-$ go get -u github.com/h4lim/client-party
+$ go get -u github.com/ankghoro/client-party
 ```
 
 ### JSON TEST
@@ -32,7 +32,7 @@ package main
 
 import (
 	"fmt"
-	cp "github.com/h4lim/client-party"
+	cp "github.com/ankghoro/client-party"
 )
 
 func main() {
